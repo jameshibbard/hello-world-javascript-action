@@ -4,8 +4,12 @@ const github = require('@actions/github');
 
 async function run() {
   try {
+    console.log(github.context.payload.repository.full_name);
+    console.log(JSON.stringify(github.context, undefined, 2);
+
     // Get list of files that have changed
     console.log('Fetching commit...');
+    console.log();
     const url = `https://api.github.com/repos/jameshibbard/test-hello-world-javascript-action/commits/${process.env.GITHUB_SHA}`;
     console.log(url);
     const res = await axios.get(url);
