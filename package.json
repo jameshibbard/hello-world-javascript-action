@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jameshibbard/hello-world-javascript-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.4",
-    "@actions/github": "^3.0.0"
+    "@actions/github": "^3.0.0",
+    "axios": "^0.19.2"
   }
 }
