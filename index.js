@@ -5,7 +5,7 @@ const github = require('@actions/github');
 async function run() {
   try {
     console.log(github.context.payload.repository.full_name);
-    console.log(JSON.stringify(github.context, undefined, 2);
+    console.log(JSON.stringify(github.context, undefined, 2));
 
     // Get list of files that have changed
     console.log('Fetching commit...');
